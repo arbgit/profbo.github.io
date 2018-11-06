@@ -3,25 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>profbo.project</title>
-	<link rel="stylesheet" href="styles/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+	<link rel="stylesheet" href="styles/index-style.css">
+	  
 </head>
 <body>
 	<ul>
-		<li><a href="#sec1">О компании</a></li>
-		<li><a href="#sec2">Наши преимущества</a></li>
-		<li><a href="#sec3">Тарифы</a></li>
-		<li><a href="#sec4">Контакты</a></li>
-		<li><a href="#sec5">Как нас найти?</a></li>
+		<li><a href="index.html">О компании</a></li>
+		<li><a href="addition.html#sec2">Наши преимущества</a></li>
+		<li><a href="addition.html#sec3">Тарифы</a></li>
+		<li><a href="addition.html#sec4">Контакты</a></li>
+		<li><a href="addition.html#sec5">Как нас найти?</a></li>
 	</ul>
 
-	<section id='sec1' data-text = 'ПрофБО - компания профессионального ведения отчета и отчетности' class="conteiner">
-		<div class="main-info"></div>
+	<section id='sec1' class="sec1">
+		<div class="main-info">
+			<p class="company">Компания «ПрофБО»</p>
+			<p class="work">Ведение бухгалтерского и налового учета для малого и среднего бизнеса</p>
+		</div>
+		<a href="addition.html#sec4">
+			<span data-text="Подать заявку">Подать заявку</span>
+		</a>
 	</section>
-	<section id='sec2' data-text = 'Section 2'></section>
-	<section id='sec3' data-text = 'Section 3'></section>
-	<section id='sec4' data-text = 'Section 4'></section>
-	<section id='sec5' data-text = 'Section 5'></section>
+
 </body>
 <script src="scripts/script.js"></script>
 </html>
